@@ -1,0 +1,24 @@
+{
+  "name": "ai-powered-smart-email-generator",
+  "version": "1.0.0",
+  "description": "PathPilot / AI-Powered Smart Email Generator - MERN Stack Web Application as per SRS",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "dev": "node -e \"console.log('Run server and client concurrently or in separate terminals')\"",
+    "build": "npm --prefix client run build",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "mern",
+    "ai-email-generator",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "gemini-ai"
+  ],
+  "author": "K. Naga Lakshmi (Roll no: 24B61A0575)",
+  "license": "MIT"
+}
