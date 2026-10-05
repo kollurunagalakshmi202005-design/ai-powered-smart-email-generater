@@ -17,7 +17,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: true, // Allow dynamically configured clients
+  origin: true,
   credentials: true,
 }));
 app.use(express.json());
